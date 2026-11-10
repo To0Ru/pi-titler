@@ -43,7 +43,7 @@ pi-titler 读取当前会话的内容，用一次轻量模型调用生成标题�
 需要 Pi **≥ 1.5.0**、Node.js **≥ 22.19**。
 
 ```sh
-pi install git:github.com/<your-username>/pi-titler
+pi install git:github.com/To0Ru/pi-titler
 ```
 
 如果 Pi 已在运行，安装后执行 `/reload`。
@@ -53,10 +53,10 @@ pi install git:github.com/<your-username>/pi-titler
 
 ```sh
 # 只在本次启动中试用，不写入设置
-pi -e git:github.com/<your-username>/pi-titler
+pi -e git:github.com/To0Ru/pi-titler
 
 # 从本地目录安装（开发用）
-git clone https://github.com/<your-username>/pi-titler.git
+git clone https://github.com/To0Ru/pi-titler.git
 pi install ./pi-titler
 ```
 
@@ -183,7 +183,7 @@ pi install ./pi-titler
 ## 开发
 
 ```sh
-git clone https://github.com/<your-username>/pi-titler.git
+git clone https://github.com/To0Ru/pi-titler.git
 cd pi-titler
 npm ci
 npm run check   # 严格类型检查 + 测试
